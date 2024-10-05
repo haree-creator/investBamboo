@@ -1,0 +1,957 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#headers {
+  background-color: #07775d;
+  height: 120vh;
+}
+
+.burger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul .toplist {
+  display: inline-block;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 3.125rem;
+  margin-top: 1.25rem;
+}
+
+.nav img {
+  width: 122px;
+  height: 2.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  margin-left: 3.125rem;
+}
+.hero {
+  padding-top: 9.38rem;
+  color: #fff;
+  position: relative;
+  padding-bottom: 3.125rem;
+  display: flex;
+  justify-content: space-around;
+}
+.hero .write1 {
+  width: 31.25rem;
+  margin-top: 3rem;
+}
+.write1 h1 {
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 3.75rem;
+}
+.write1 p {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  line-height: 23px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.write1 img {
+  width: 40%;
+}
+.hero .ifram {
+  max-width: 40%;
+  height: auto;
+}
+
+.ifram video {
+  border-radius: 0.938rem;
+}
+
+.carouser img {
+  margin-left: 5.63rem;
+  margin-top: 1.25rem;
+  max-width: 10%;
+  background-color: #fefbf5;
+  margin-bottom: 1.25rem;
+}
+
+.rest {
+  padding: 3.125rem;
+  background-color: #fefbf5;
+  display: flex;
+  justify-content: space-around;
+}
+.rest .img1 {
+  width: 48%;
+}
+
+.rest .write2 {
+  width: 510px;
+  color: #232323;
+}
+.write2 span {
+  color: #232323;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.write2 .p {
+  font-size: 1rem;
+  margin-bottom: 1.88rem;
+}
+.write2 .box {
+  display: inline-block;
+  width: 14.38rem;
+  margin-bottom: 1.88rem;
+}
+
+.write2 .fund {
+  vertical-align: top;
+  margin-left: 2.813rem;
+}
+
+.money {
+  padding-left: 3rem;
+}
+
+.box .top {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.box .bottom {
+  font-size: 1rem;
+  font-weight: 25rem;
+  word-wrap: break-word;
+}
+a {
+  text-decoration: none;
+}
+.write2 .button a,
+.start a {
+  text-decoration: none;
+  background-color: #07775d;
+  color: #fff;
+  width: 100%;
+  padding: 0.938rem 2.5rem;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  background-color: darkgreen;
+}
+
+.invest {
+  background-color: #07775d;
+  color: #fff;
+  margin-left: 4.15rem;
+  margin-right: 3.125rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.invest div {
+  width: 45.4%;
+}
+
+.invest .write3 {
+  vertical-align: top;
+  padding-left: 2.813rem;
+  margin-right: 2rem;
+}
+.write3 h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 3.125rem 0;
+}
+.write3 p {
+  font-size: 1.25rem;
+}
+.write3 .inbut {
+  margin-top: 11.5rem;
+}
+.write3 .inbut a {
+  background-color: #fff;
+  color: #0a8469;
+  width: 100%;
+  padding: 0.938rem 2.5rem;
+  border-radius: 5px;
+}
+.invest .img2 {
+  width: 51%;
+}
+.learn {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 65px;
+}
+.learn div {
+  width: 49%;
+}
+
+.learn .write4 {
+  vertical-align: top;
+  margin-top: 6.25rem;
+  margin-left: 0.938rem;
+}
+.write4 h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 3.125rem 0 0;
+}
+.write4 p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.products {
+  background-color: #07775d;
+  height: 280vh;
+}
+
+.product-item {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+.second-level {
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.products .ph2 {
+  color: #fff;
+  text-align: center;
+  padding: 3.125rem 0;
+  font-size: 2.5rem;
+}
+
+.products .product {
+  background-color: #fff;
+  width: 28%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.stock .lmore {
+  margin-top: 105px;
+}
+
+.fixed .lmore {
+  margin-top: 5.63rem;
+}
+
+.exchange .lmore {
+  margin-top: 4.688rem;
+}
+
+.second-level .inst {
+  width: 29.1%;
+}
+
+.inst .lmore {
+  margin-top: 3.125rem;
+}
+
+.product .img4 img {
+  width: 60%;
+}
+
+.product .img4 {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.product .one,
+.product .four {
+  background: #c4cae4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.product .two {
+  background: #f2f2f2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.product .three {
+  background: #e99b8d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product .write5 {
+  padding: 1.563rem;
+}
+
+.write5 h2 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.write5 p {
+  line-height: 1.5;
+}
+
+.write5 .lmore a {
+  background-color: #0a8469;
+  color: #fff;
+  width: 100%;
+  padding: 10px 1.25rem;
+  border-radius: 5px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  height: 230vh;
+}
+.help .write6 {
+  text-align: center;
+  margin-top: 10rem;
+  padding: 0 20rem;
+}
+
+.write6 h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.write6 .armed {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.write6 .num {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #07775d;
+  margin-bottom: 0;
+}
+.write6 .reg {
+  font-size: 32px;
+  font-weight: 43.75rem;
+  margin-top: 0.938rem;
+}
+.help .tbell {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  padding: 0 5rem;
+}
+
+.tbell .bell {
+  width: 24.38rem;
+  margin-top: 2.25rem;
+}
+
+.tbell .writeTrigger {
+  width: 50%;
+  margin-left: 4.38rem;
+}
+
+.tbell .writeTrigger h2 {
+  width: 90%;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.writeTrigger p {
+  font-size: 1rem;
+  width: 55%;
+  line-height: 1.4;
+}
+
+.writeTrigger .W {
+  margin-top: 4.38rem;
+}
+
+.join {
+  position: relative;
+  background-color: #ddbd8e;
+  z-index: -1;
+  padding-top: 46.25rem;
+}
+
+.join .con {
+  position: absolute;
+  top: 14%;
+  left: 5%;
+  right: 5%;
+  background-color: #fff;
+  padding-bottom: 8.1rem;
+  border-radius: 0.313rem;
+  padding-left: 6.25rem;
+  z-index: 1;
+}
+
+.con .write7 {
+  display: inline-block;
+  width: 21.88rem;
+  padding-top: 7.5rem;
+}
+.write7 h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.write7 p {
+  font-size: 1rem;
+}
+.write7 .l {
+  margin-top: 3.125rem;
+}
+.con .mailbox {
+  position: absolute;
+  display: inline-block;
+  width: 37.5rem;
+  right: -7%;
+  top: 10%;
+}
+
+.download {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.download .deposit {
+  width: 31.25rem;
+  margin-left: 2rem;
+}
+
+.download .write8 {
+  width: 37.5rem;
+  padding-top: 6rem;
+}
+.write8 h2 {
+  font-size: 3rem;
+}
+.write8 img {
+  width: 12.5rem;
+  margin-top: 3.125rem;
+}
+
+.foot {
+  background-color: #fefbf5;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footlist ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.9375rem;
+}
+li a {
+  color: #232323;
+}
+.footlist {
+  margin-top: 3.75rem;
+  margin-left: -12rem;
+}
+.footlist h5 {
+  font-size: 1.125rem;
+}
+
+.footlist .img {
+  margin-left: 1.875rem;
+}
+
+.img img {
+  margin-left: 0.625rem;
+}
+
+.img-address {
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot .footlog {
+  margin-left: -10rem;
+}
+.foot .address {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.foot .bamboo {
+  margin: 1.25rem 3.75rem;
+  font-size: 0.813rem;
+}
+
+.foot .footext {
+  width: 15.63rem;
+}
+
+.footext h5 {
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem;
+}
+.footext p {
+  margin-top: 0;
+}
+
+.foot i {
+  margin: 3.125rem 3.75rem;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+  .nav img {
+    width: 90px;
+    margin-top: 0;
+  }
+  .nav ul {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1rem;
+  }
+  .hero .write1 {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .hero .ifram {
+    display: none;
+  }
+
+  .write2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .write2 .fund {
+    margin-left: -0.1rem;
+  }
+  .invest,
+  .learn {
+    display: none;
+  }
+  .products {
+    height: auto;
+    /* width: 42.3rem; */
+    padding-bottom: 5rem;
+  }
+
+  .products .ph2 {
+    font-size: 2rem;
+  }
+
+  .products .product-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .products .product {
+    width: 300px;
+  }
+
+  .product .img4 {
+    padding: 2rem 0;
+  }
+
+  .write5 h2 {
+    margin-bottom: 5px;
+  }
+  /* .products {
+    height: 200vh;
+  }
+  .products .product-item {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .product {
+    flex: 1;
+    font-size: small;
+    max-width: 80%;
+  }*/
+  .inst {
+    display: none;
+  }
+
+  .help {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    font-size: 1rem;
+    align-items: center;
+    height: 280vh;
+  }
+  .bell {
+    height: 250px;
+  }
+
+  .help h2 {
+    font-size: 2rem;
+    width: 300px;
+    line-height: 1.2;
+  }
+  .help .write6 .armed {
+    font-size: 15px;
+  }
+  .writeTrigger p {
+    font-size: 15px;
+    width: 300px;
+  }
+  .tbell .writeTrigger h2 {
+    font-size: 2rem;
+    width: 300px;
+    text-align: center;
+  }
+  .tbell {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 12px;
+  }
+
+  .con .mailbox img {
+    margin-left: 300px;
+    width: 100px;
+  }
+
+  .write7 {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -50px;
+  }
+  .write7 .l {
+    font-size: 1rem;
+  }
+  .download .write8 h2 {
+    width: 500px;
+    font-size: 1.3rem;
+  }
+
+  .foot footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+  }
+  .img-address .footlog {
+    width: 80px;
+    margin-left: 5rem;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+  }
+  .bamboo {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav img {
+    width: 50px;
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+  }
+  .navList {
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    top: 25px;
+    left: 75%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navList.active {
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 20px;
+    bottom: 0;
+  }
+
+  .navList .toplist:hover {
+    text-decoration: underline;
+    border-bottom: #07775d;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  #headers {
+    height: 45vh;
+    width: 42.3rem;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-div {
+    margin-left: 0;
+  }
+  .hero .write1 {
+    margin-top: -1rem;
+  }
+  .write1 img {
+    width: 4rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .hero .ifram {
+    display: none;
+  }
+
+  .carouser {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42rem;
+  }
+  .write2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .rest .write2 span br {
+    display: none;
+    font-size: 30px;
+    width: 100%;
+  }
+  .write2 .p {
+    width: 100%;
+    text-align: start;
+  }
+  .write2 .box {
+    width: 100%;
+  }
+  .box .bottom {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .money {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .money .write2 h2 span {
+    font-size: 32px;
+    width: 12rem;
+  }
+
+  .invest,
+  .learn {
+    display: none;
+  }
+
+  .products {
+    height: auto;
+    width: 42.3rem;
+    padding-bottom: 5rem;
+  }
+
+  .products .ph2 {
+    font-size: 2rem;
+  }
+
+  .products .product-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .products .product {
+    width: 300px;
+  }
+
+  .product .img4 {
+    padding: 2rem 0;
+  }
+
+  .write5 h2 {
+    margin-bottom: 5px;
+  }
+  .stock .lmore,
+  .exchange .lmore,
+  .fixed .lmore {
+    margin-top: 20px;
+  }
+  .inst {
+    display: none;
+  }
+
+  .help {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    font-size: 1rem;
+    align-items: center;
+    height: 180vh;
+    width: 42.3rem;
+  }
+  .help .write6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tbell .bell {
+    margin-top: 0;
+    text-align: center;
+  }
+  .bell img {
+    width: 200px;
+  }
+
+  .help h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .help .write6 .armed {
+    font-size: 15px;
+    width: 400px;
+  }
+  .writeTrigger p {
+    font-size: 15px;
+    width: 300px;
+  }
+  .tbell .writeTrigger h2 {
+    font-size: 2rem;
+    width: 300px;
+    text-align: center;
+  }
+  .tbell {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 12px;
+  }
+
+  .writeTrigger .W {
+    text-align: center;
+  }
+  .join {
+    width: 42.2rem;
+  }
+  .con .mailbox img {
+    margin-left: 200px;
+    width: 100px;
+  }
+  .write7 {
+    margin-left: 4rem;
+  }
+  .write7 h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -4rem;
+    margin-top: 2rem;
+  }
+  .write7 p {
+    margin-left: 0;
+    max-width: 300px;
+    font-size: 1.2rem;
+    margin-top: 12px;
+  }
+  .write7 .l {
+    font-size: 1rem;
+    margin-left: -4rem;
+    margin-top: 5rem;
+  }
+  .download {
+    text-align: center;
+    width: 42.2rem;
+  }
+  .download .deposit {
+    display: none;
+  }
+  .download .write8 h2 {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .write8 img {
+    max-width: 100%;
+  }
+  .foot {
+    width: 42.2rem;
+  }
+  .foot footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10rem;
+  }
+  .img-address .footlog {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  .bamboo {
+    display: none;
+  }
+}
